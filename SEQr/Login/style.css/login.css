@@ -1,0 +1,148 @@
+:root {
+	--primario: #013E6A;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background:white no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100px;
+  }
+  
+  .login-box {
+    width: 500px;
+    height: 480px;
+    background: #033051;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  
+  .login-box .Logo  {
+    width: 90px;
+    height: 140px;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 50px);
+    margin-top: 20px;
+  }
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 40px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 25px;
+  }
+  
+  .login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input[type="text"], .login-box input[type="Password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .login-box button[type="Enviar"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #e84e14;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .login-box button[type="Enviar"]:hover {
+    cursor: pointer;
+    background: white;
+    color: #000;
+  }
+  
+  .login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+  }
+  
+  .login-box a:hover {
+    color: #fff;
+  }
+  .contenedor-boton {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: none;
+    height: 50px;
+    color: var(--primario);
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border: 2px solid var(--primario);
+    cursor: pointer;
+    transition: .3s ease all;
+    outline: none;
+  }
+  
+  .contenedor-boton {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: #e84e14;
+    height: 50px;
+    color: var(--primario);
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border: 2px solid var(--primario);
+    cursor: pointer;
+    transition: .3s ease all;
+    outline: none;
+    color: #fff;
+  }
+  
+  button:hover {
+    background: var(--primario);
+    color: #fff;
+  }
+  
+  
+  
+  
+  
+
+  
